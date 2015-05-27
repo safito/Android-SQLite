@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sangre++</string>
+
+    <string name="hello_world">Estoy en agregar</string>
+    <string name="action_settings">Settings</string>
+    <string name="agregar_text">Agregar</string>
+    <string name="listar_text">Listar</string>
+    <string name="title_activity_agregar">Agregar</string>
+    <string name="title_activity_buscar">Buscar</string>
+    <string name="title_activity_buscar_persona">BuscarPersona</string>
+    <string name="title_activity_eliminar">eliminar</string>
+    <string name="title_activity_pre_modificar">pre_modificar</string>
+    <string name="title_activity_modificar">modificar</string>
+</resources>

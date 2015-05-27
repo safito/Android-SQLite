@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.controlsangre.sangre.eliminar">
+
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:inputType="phone"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/modificar_input"
+        android:layout_marginTop="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:id="@+id/eliminar_btn"
+        android:layout_below="@+id/modificar_input"
+        android:layout_centerHorizontal="true"
+        android:onClick="eliminar_clicked" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Introduzca el codigo de la persona y oprima eliminar"
+        android:id="@+id/titulo_txt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

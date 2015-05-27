@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.controlsangre.sangre" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Agregar"
+            android:label="@string/title_activity_agregar" >
+        </activity>
+        <activity
+            android:name=".BuscarPersona"
+            android:label="@string/title_activity_buscar_persona"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".eliminar"
+            android:label="@string/title_activity_eliminar" >
+        </activity>
+        <activity
+            android:name=".pre_modificar"
+            android:label="@string/title_activity_pre_modificar" >
+        </activity>
+        <activity
+            android:name=".modificar"
+            android:label="@string/title_activity_modificar" >
+        </activity>
+    </application>
+
+</manifest>
